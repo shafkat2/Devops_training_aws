@@ -2,9 +2,9 @@
 
 ## HomeWork Class 5
 
--[![Homework Documentation][Documentation]](class_5_homework/home_work_documentation.md)
+[![Homework Documentation][Documentation]](class_5_homework/home_work_documentation.md)
 
--[![Homework link][Homelink]](class_5_homework/)
+[![Homework link][Homelink]](class_5_homework/)
 
 ## HomeWork class 6
 
