@@ -4,6 +4,4 @@
 
 [![Homework link](class_5_homework/)
 
-
-
 # HomeWork class 6
