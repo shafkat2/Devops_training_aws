@@ -1,10 +1,12 @@
- #!/bin/bash
+#!/bin/bash
 
- 
+# propmts command for the bucket name
 read -p 'Bucket_Name: ' bucket
 
+# parse the json file to get if the bucket it enabled or not
 status=$(aws s3api get-bucket-versioning --bucket $bucket | awk '{print $3}' | grep -o '[A-Z].*abled')
 
+# checks the status and takes necessary action
 if [ "$status" == 'Disabled' ]; 
 then
 
