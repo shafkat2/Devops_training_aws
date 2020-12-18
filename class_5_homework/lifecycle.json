@@ -1,0 +1,37 @@
+{
+    "Rules": [
+
+        {
+            "ID": "tiering_down_to_reduce_cost",
+            "Prefix": "*.txt",
+            "Status": "Enabled",
+            "Transitions": [
+                {
+                    "Days": "30",
+                    "StorageClass": "STANDARD_IA"
+                },                
+                {
+                    "Days": "60",
+                    "StorageClass": "ONEZONE_IA"
+                },
+                {
+                    "Days": "120",
+                    "StorageClass": "GLACIER"
+                },
+                {
+                    "Days": "150",
+                    "StorageClass": "DEEP_ARCHIVE"
+                }
+                
+            ],
+
+            "Expiration": {
+                "Days": "160",
+                "ExpiredObjectDeleteMarker": true
+            }
+
+            
+        }
+
+    ]
+}

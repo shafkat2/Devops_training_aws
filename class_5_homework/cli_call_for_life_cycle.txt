@@ -1,0 +1,1 @@
+aws s3api put-bucket-lifecycle-configuration --bucket Izaanit-test-s3-lifecycle --lifecycle-configuration  lifecycle.json
