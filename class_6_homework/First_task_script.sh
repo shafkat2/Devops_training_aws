@@ -21,3 +21,7 @@ else
   echo "error due to wrong api call or bad request"
 fi
 
+
+file_name_version_id = $(aws s3api delete-objects --bucket $bucket --delete ./delete.json | awk '/DeleteMarkerVersionId/ {print $2}' test.txt |  grep -o "[a-z].*[a-z]")
+
+aws s3api get-object --bucket $bucket --version-id $file_name_version_id
