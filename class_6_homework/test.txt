@@ -1,9 +1,1 @@
-{
-    "Deleted": [
-        {
-            "DeleteMarkerVersionId": "mYAT5Mc6F7aeUL8SS7FAAqUPO1koHwzU",
-            "Key": "test1.txt",
-            "DeleteMarker": true
-        }
-    ]
-}
+"hello world"

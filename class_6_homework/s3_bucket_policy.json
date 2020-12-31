@@ -1,0 +1,15 @@
+{
+    "Id": "Policy1609441421689",
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1609441417743",
+        "Action": [
+          "s3:GetObject"
+        ],
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::izaan-it-version-check/*",
+        "Principal": "*"
+      }
+    ]
+  }
