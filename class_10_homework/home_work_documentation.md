@@ -1,6 +1,6 @@
 ## HomeWork Class 10
 
-    ![Screenshot](./picture/vpc_automation.PNG)
+    ![Screenshot](https://github.com/shafkat2/Devops_training_aws/blob/main/class_10_homework/picture/vpc_automation.PNG)
 
   ### Procedure  
   
