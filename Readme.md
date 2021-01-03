@@ -13,7 +13,11 @@
 [![Homework link][Homelink]](class_6_homework/)
 
 
+## HomeWork class 10
 
+[![Homework Documentation][Documentation]](class_10_homework/home_work_documentation.md)
+
+[![Homework link][Homelink]](class_10_homework/)
 
 [Documentation]: https://img.shields.io/badge/Homework%20Documentaion-readme-lightgrey
 [Homelink]: https://img.shields.io/badge/Homework%20link-folder%20location-red
