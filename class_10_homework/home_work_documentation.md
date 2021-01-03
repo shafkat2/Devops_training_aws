@@ -1,6 +1,6 @@
 ## HomeWork Class 10
 
-    ![Picture 1](./picture/vpc_automation.PNG)
+    ![Picture 1](vpc_automation.PNG)
 
   ### Procedure  
   
