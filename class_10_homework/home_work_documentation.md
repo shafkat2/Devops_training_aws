@@ -1,6 +1,6 @@
 ## HomeWork Class 10
 
-    ![Screenshot](picture/vpc_automation.png)
+    ![plot](./picture/vpc_automation.png)
 
   ### Procedure  
   
@@ -9,8 +9,6 @@
     Created two subnet 172.168.0.1/24,172.168.0.5/24
 
     Added routing table for subnet one
-
-    Added router
 
     Added internet gateway
 
