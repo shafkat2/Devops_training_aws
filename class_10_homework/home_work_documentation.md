@@ -1,8 +1,8 @@
-## HomeWork Class 5
+## HomeWork Class 10
 
-    ![Alt text](picture/vpc_automation.png)
+    ![Screenshot]](picture/vpc_automation.png)
 
-  ### Transition Diagram  
+  ### Procedure  
   
     Created vpc using the IP 172.168.0.0/16
 
