@@ -1,6 +1,6 @@
 ## HomeWork Class 5
 
-    ![Alt text](./picture/vpc_automation.png "VPC MODEL")
+    ![Alt text](picture/vpc_automation.png)
 
   ### Transition Diagram  
   
