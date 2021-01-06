@@ -8,7 +8,7 @@
           "s3:GetObject"
         ],
         "Effect": "Allow",
-        "Resource": "arn:aws:s3:::izaan-it-version-check/*",
+        "Resource": "arn:aws:s3:::izaan-it-test-for-website/*",
         "Principal": "*"
       }
     ]

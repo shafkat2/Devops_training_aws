@@ -9,7 +9,7 @@
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::izaan-it-website-launch-automation/*"
+                "arn:aws:s3:::izaan-it-version-check/*"
             ]
         }
     ]

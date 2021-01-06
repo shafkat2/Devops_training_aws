@@ -25,4 +25,4 @@ aws s3api delete-public-access-block --bucket $bucket
 
 file_name_version_id=$(aws s3api delete-objects --bucket izaan-it-version-check --delete file://delete.json | awk '/DeleteMarkerVersionId/ {print $2}' | grep -o "[a-z A-Z 0-9].*.[a-z A-Z 0-9]")
 
-aws s3api get-object --bucket $bucket --version-id $file_name_version_id $file_name
+aws s3api get-object --bucket $bucket --key $file_name --version-id $file_name_version_id $file_name
