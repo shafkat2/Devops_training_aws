@@ -1,0 +1,28 @@
+{
+
+
+    "NetworkInterfaces":[
+            {"AssociatePublicIpAddress":true,"DeviceIndex":0,"Ipv6AddressCount":1,"SubnetId":"subnet-8173328f"}],
+    "ImageId":"ami-8c1be5f6",
+    "InstanceType":"t2.micro",
+    "TagSpecifications":
+            [{"ResourceType":"instance","Tags":[{"Key":"purpose","Value":"webserver"}]}],
+    "KeyName": "TestEc2",
+    "SecurityGroups":["sg-00e8c32e28c67bd78"],
+    "UserData":" #!/bin/bash sudo su apt update -y apt install -y yum-utils yum install git yum install httpd cd /var/www/html git clone https://github.com/Jahidul2543/jahidul2543.github.io.git cp -a ./ ./Jahidul2543 rm -r Jahidul2543"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
