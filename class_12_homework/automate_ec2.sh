@@ -19,3 +19,6 @@ while true; do
 public_ip=$(aws ec2 describe-intances --instance-ids $instacne_id | grep -n "PublicIp" | awk '{print $3}' | grep -0 "[0-9].*.[0-9]" )
 
 echo $public_ip
+
+sleep 1 min
+aws ec2 create-image --instance-id $instacne_id --name "My server" \--description "An AMI for my server test" --no-reboot
