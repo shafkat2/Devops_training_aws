@@ -2,25 +2,14 @@
 
 
     "NetworkInterfaces":[
-            {"AssociatePublicIpAddress":true,"DeviceIndex":0,"Ipv6AddressCount":1,"SubnetId":"subnet-8173328f"}],
-    "ImageId":"ami-8c1be5f6",
+            {"AssociatePublicIpAddress":true,"DeviceIndex":0,"SubnetId":"subnet-8173328f","Groups":["sg-0c239e75ab72bb619"]}],
+    "ImageId":"ami-0be2609ba883822ec",
+    "Monitoring": {"Enabled":true},
     "InstanceType":"t2.micro",
     "TagSpecifications":
             [{"ResourceType":"instance","Tags":[{"Key":"purpose","Value":"webserver"}]}],
     "KeyName": "TestEc2",
-    "SecurityGroups":["sg-00e8c32e28c67bd78"],
-    "UserData":" #!/bin/bash sudo su apt update -y apt install -y yum-utils yum install git yum install httpd cd /var/www/html git clone https://github.com/Jahidul2543/jahidul2543.github.io.git cp -a ./ ./Jahidul2543 rm -r Jahidul2543"
-
-
-
-
-
-
-
-
-
-
-
+    "UserData": "CiMhL2Jpbi9iYXNoICAKeXVtIC15IGluc3RhbGwgZ2l0IAp5dW0gLXkgaW5zdGFsbCBodHRwZCAKY2QgL3Zhci93d3cvaHRtbCAKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9KYWhpZHVsMjU0My9qYWhpZHVsMjU0My5naXRodWIuaW8uZ2l0IApjcCAtciAuL2phaGlkdWwyNTQzLmdpdGh1Yi5pby8qIC4vCnJtIC1yIGphaGlkdWwyNTQzLmdpdGh1Yi5pbwpzZXJ2aWNlIGh0dHBkIHN0YXJ0IAo="
 
 
 

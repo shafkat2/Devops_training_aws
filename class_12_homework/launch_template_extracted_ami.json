@@ -1,0 +1,16 @@
+{
+
+
+    "NetworkInterfaces":[
+            {"AssociatePublicIpAddress":true,"DeviceIndex":0,"SubnetId":"subnet-30f6a97d","Groups":["sg-0c239e75ab72bb619"]}],
+    "ImageId":"ami-0a08ed032c3128096",
+    "Monitoring": {"Enabled":true},
+    "InstanceType":"t2.micro",
+    "TagSpecifications":
+            [{"ResourceType":"instance","Tags":[{"Key":"purpose","Value":"webserver"}]}],
+    "KeyName": "TestEc2",
+    "UserData": "IyEvYmluL2Jhc2ggIApzZXJ2aWNlIGh0dHBkIHN0YXJ0IAo="
+
+
+
+}

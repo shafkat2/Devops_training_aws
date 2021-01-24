@@ -1,0 +1,9 @@
+
+#!/bin/bash  
+yum -y install git 
+yum -y install httpd 
+cd /var/www/html 
+git clone https://github.com/Jahidul2543/jahidul2543.github.io.git 
+cp -r ./jahidul2543.github.io/* ./
+rm -r jahidul2543.github.io
+service httpd start 
